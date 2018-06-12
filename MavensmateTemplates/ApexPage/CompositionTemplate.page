@@ -1,0 +1,38 @@
+<!--
+Name: {{ api_name }}
+Description:
+Author: {{ developerName }} (Trineo)
+Date: {{ createdDate }}
+-->
+<apex:page applyHtmlTag="false" applyBodyTag="false" showHeader="false" sidebar="false" docType="html-5.0" standardStylesheets="false">
+
+    <!--[if lt IE 7]>
+    <html class="ie ie6 lt-ie7 lt-ie8 lt-ie9" lang="en"><![endif]-->
+    <!--[if IE 7]>
+    <html class="ie ie7 lt-ie8 lt-ie9" lang="en"><![endif]-->
+    <!--[if IE 8]>
+    <html class="ie ie8 lt-ie9" lang="en"><![endif]-->
+    <!--[if IE 9]>
+    <html class="ie ie9 lt-ie10" lang="en"><![endif]-->
+    <!--[if IE]>
+    <html class="ie" lang="en"><![endif]-->
+    <!--[if !IE]><!-->
+    <html lang="en">
+    <!--<![endif]-->
+        <head>
+            <meta charset="utf-8" />
+            <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+            <meta name="description" content="" />
+            <meta name="viewport" content="width=device-width", "initial-scale=1" />
+
+            <title></title>
+
+            <!-- Allow the content page to insert data into the head, keep this at the bottom of the head -->
+            <apex:insert name="headContent" />
+        </head>
+        <body>
+            <apex:insert name="bodyContent" />
+            <apex:insert name="footerContent" />
+        </body>
+    </html>
+</apex:page>

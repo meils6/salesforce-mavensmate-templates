@@ -1,0 +1,13 @@
+<snippet>
+	<tabTrigger>list public { get; set; }</tabTrigger>
+	<scope>source.apex</scope>
+	<content>
+		<![CDATA[
+public List<${1}> ${2} { get; set; }
+		]]>			
+	</content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<!-- <tabTrigger>hello</tabTrigger> -->
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

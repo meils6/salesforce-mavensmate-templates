@@ -1,0 +1,11 @@
+{
+	"picklist 1": {
+		"prefix": "picklist",
+		"body": [
+			"<apex:selectList size='1' value='{!${CLIPBOARD}}'>",
+        	"    <apex:selectOptions value='{!${1}}'/> ",
+    		"</apex:selectList>"
+		],
+		"description": "a custom picklist"
+	}
+}

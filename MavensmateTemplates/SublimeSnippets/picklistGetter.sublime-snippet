@@ -1,0 +1,20 @@
+<snippet>
+	<tabTrigger>picklist getter</tabTrigger>
+	<scope>source.apex</scope>
+	<content>
+		<![CDATA[
+public List<SelectOption> get${1}(){
+    List<SelectOption> options = new List<SelectOption>();
+    
+    for(${2}){
+        options.add(new SelectOption(${3},${4}));
+    },
+    return options;
+}
+		]]>			
+	</content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<!-- <tabTrigger>hello</tabTrigger> -->
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

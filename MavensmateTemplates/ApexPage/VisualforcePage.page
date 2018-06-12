@@ -1,0 +1,9 @@
+<!--
+Name: {{ api_name }}
+Description:
+Author: {{ developerName }} (Trineo)
+Date: {{ createdDate }}
+-->
+<apex:page showHeader="true" sidebar="true">
+
+</apex:page>

@@ -1,0 +1,345 @@
+{
+    "ApexClass":[
+        {
+            "name":"Default",
+            "file_name":"Default.cls",
+            "description":"The default template for an Apex Class",
+            "author":"Damon Shaw",
+            "params":[
+                {
+                    "name":"api_name",
+                    "description":"Apex Class API Name",
+                    "default":"MyApexClass"
+                },
+                {
+                    "name":"developerName",
+                    "description":"Developer Name",
+                    "default":""
+                },
+                {
+                    "name":"createdDate",
+                    "description":"Created Date",
+                    "default":"Jan 2018"
+                }
+            ]
+        },
+        {
+            "name":"Batchable",
+            "file_name":"Batchable.cls",
+            "description":"A basic Batchable Apex Class",
+            "author":"Damon Shaw",
+            "params":[
+                {
+                    "name":"api_name",
+                    "description":"Apex Class API Name",
+                    "default":"MyBatchableClass"
+                },
+                {
+                    "name":"developerName",
+                    "description":"Developer Name",
+                    "default":""
+                },
+                {
+                    "name":"createdDate",
+                    "description":"Created Date",
+                    "default":"Jan 2018"
+                }
+            ]
+        },
+        {
+            "name":"Schedulable",
+            "file_name":"Schedulable.cls",
+            "description":"A basic Schedulable Apex Class",
+            "author":"Damon Shaw",
+            "params":[
+                {
+                    "name":"api_name",
+                    "description":"Apex Class API Name",
+                    "default":"MySchedulableClass"
+                },
+                {
+                    "name":"developerName",
+                    "description":"Developer Name",
+                    "default":""
+                },
+                {
+                    "name":"createdDate",
+                    "description":"Created Date",
+                    "default":"Jan 2018"
+                },
+                {
+                    "name":"description",
+                    "description":"Scheduled job description",
+                    "default":"Jan 2018"
+                }
+            ]
+        },
+        {
+            "name":"SchedulableBatch",
+            "file_name":"SchedulableBatch.cls",
+            "description":"A Schedulable Batch Class",
+            "author":"Damon Shaw",
+            "params":[
+                {
+                    "name":"api_name",
+                    "description":"Apex Class API Name",
+                    "default":"MySchedulableBatchClass"
+                },
+                {
+                    "name":"developerName",
+                    "description":"Developer Name",
+                    "default":""
+                },
+                {
+                    "name":"createdDate",
+                    "description":"Created Date",
+                    "default":"Jan 2018"
+                },
+                {
+                    "name":"description",
+                    "description":"Batch job description",
+                    "default":"Jan 2018"
+                }
+            ]
+        },
+        {
+            "name":"TriggerHandler",
+            "file_name":"TriggerHandler.cls",
+            "description":"A TriggerHandler Class",
+            "author":"Damon Shaw",
+            "params":[
+                {
+                    "name":"api_name",
+                    "description":"Apex Class API Name",
+                    "default":"MySchedulableBatchClass"
+                },
+                {
+                    "name":"developerName",
+                    "description":"Developer Name",
+                    "default":""
+                },
+                {
+                    "name":"createdDate",
+                    "description":"Created Date",
+                    "default":"Jan 2018"
+                }
+            ]
+        },
+        {
+            "name":"UnitTest",
+            "file_name":"UnitTest.cls",
+            "description":"A UnitTest Class",
+            "author":"Damon Shaw",
+            "params":[
+                {
+                    "name":"api_name",
+                    "description":"Apex Class API Name",
+                    "default":"MySchedulableBatchClass"
+                },
+                {
+                    "name":"developerName",
+                    "description":"Developer Name",
+                    "default":""
+                },
+                {
+                    "name":"createdDate",
+                    "description":"Created Date",
+                    "default":"Jan 2018"
+                },
+                {
+                    "name":"testMehodName",
+                    "description":"First test methods name",
+                    "default":"Jan 2018"
+                }
+            ]
+        },
+        {
+            "name":"UnitTestWithMock",
+            "file_name":"UnitTestWithMock.cls",
+            "description":"A UnitTest Class with Callout mocks",
+            "author":"Damon Shaw",
+            "params":[
+                {
+                    "name":"api_name",
+                    "description":"Apex Class API Name",
+                    "default":"MySchedulableBatchClass"
+                },
+                {
+                    "name":"developerName",
+                    "description":"Developer Name",
+                    "default":""
+                },
+                {
+                    "name":"createdDate",
+                    "description":"Created Date",
+                    "default":"Jan 2018"
+                },
+                {
+                    "name":"testMehodName",
+                    "description":"First test methods name",
+                    "default":"Jan 2018"
+                }
+            ]
+        },
+        {
+            "name":"RestResource",
+            "file_name":"RestResource.cls",
+            "description":"A RestResource Class",
+            "author":"Damon Shaw",
+            "params":[
+                {
+                    "name":"api_name",
+                    "description":"Apex Class API Name",
+                    "default":"MySchedulableBatchClass"
+                },
+                {
+                    "name":"developerName",
+                    "description":"Developer Name",
+                    "default":""
+                },
+                {
+                    "name":"createdDate",
+                    "description":"Created Date",
+                    "default":"Jan 2018"
+                },
+                {
+                    "name":"objectName",
+                    "description":"API name of sObject",
+                    "default":"Account"
+                },
+                {
+                    "name":"url",
+                    "description":"URL Mapping",
+                    "default":"Jan 2018"
+                }
+            ]
+        },
+        {
+            "name":"Queueable",
+            "file_name":"Queueable.cls",
+            "description":"A Queueable Class",
+            "author":"Damon Shaw",
+            "params":[
+                {
+                    "name":"api_name",
+                    "description":"Apex Class API Name",
+                    "default":"MySchedulableBatchClass"
+                },
+                {
+                    "name":"developerName",
+                    "description":"Developer Name",
+                    "default":""
+                },
+                {
+                    "name":"createdDate",
+                    "description":"Created Date",
+                    "default":"Jan 2018"
+                }
+            ]
+        }
+    ],
+    "ApexComponent":[
+
+    ],
+    "ApexPage":[
+        {
+            "name":"Visualforce Page",
+            "file_name":"VisualforcePage.page",
+            "description":"Basic Visualforce Page template",
+            "author":"Damon Shaw",
+            "params":[
+                {
+                    "name":"api_name",
+                    "description":"Visualforce Page API Name",
+                    "default":"MyVisualforcePage"
+                },
+                {
+                    "name":"developerName",
+                    "description":"Developer Name",
+                    "default":""
+                },
+                {
+                    "name":"createdDate",
+                    "description":"Created Date",
+                    "default":"Jan 2018"
+                }
+            ]
+        },
+        {
+            "name":"CompositionTemplate",
+            "file_name":"CompositionTemplate.page",
+            "description":"A Composistion Template",
+            "author":"Damon Shaw",
+            "params":[
+                {
+                    "name":"api_name",
+                    "description":"Composition Template Name",
+                    "default":"MyTemplate"
+                },
+                {
+                    "name":"developerName",
+                    "description":"Developer Name",
+                    "default":""
+                },
+                {
+                    "name":"createdDate",
+                    "description":"Created Date",
+                    "default":"Jan 2018"
+                }
+            ]
+        },
+        {
+            "name":"CompositionContent",
+            "file_name":"CompositionContent.page",
+            "description":"A Composition page",
+            "author":"Damon Shaw",
+            "params":[
+                {
+                    "name":"api_name",
+                    "description":"Composition Content Page Name",
+                    "default":"MyTemplateContent"
+                },
+                {
+                    "name":"developerName",
+                    "description":"Developer Name",
+                    "default":""
+                },
+                {
+                    "name":"createdDate",
+                    "description":"Created Date",
+                    "default":"Jan 2018"
+                }
+            ]
+        }
+    ],
+    "ApexTrigger":[
+        {
+            "name":"Trigger",
+            "file_name":"Trigger.trigger",
+            "description":"A Trigger that calls a Trigger Handler",
+            "author":"Damon Shaw",
+            "params":[
+                {
+                    "name":"api_name",
+                    "description":"Apex Class API Name",
+                    "default":"MySchedulableBatchClass"
+                },
+                {
+                    "name":"sObject",
+                    "description":"SObject API Name",
+                    "default":""
+                },
+                {
+                    "name":"developerName",
+                    "description":"Developer Name",
+                    "default":""
+                },
+                {
+                    "name":"createdDate",
+                    "description":"Created Date",
+                    "default":"Jan 2018"
+                }
+            ]
+        }
+    ]
+}

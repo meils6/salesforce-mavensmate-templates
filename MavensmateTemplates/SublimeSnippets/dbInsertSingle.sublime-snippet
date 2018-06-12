@@ -1,0 +1,21 @@
+<snippet>
+	<tabTrigger>database.insert Single</tabTrigger>
+	<scope>source.apex</scope>
+	<content>
+		<![CDATA[
+Database.SaveResult sr = Database.Insert(${1}, ${2});
+if(sr.isSuccess()) {
+    
+}
+else {
+    for(Database.Error err : sr.getErrors()) {
+        
+    }
+}
+		]]>			
+	</content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<!-- <tabTrigger>hello</tabTrigger> -->
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
